@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="off-screen-menu">
+            <ul id="menu">
+                        
+             </ul>
+            </div>
+                
+            <nav>
+                <h1 class="header__logo" onclick="document.location='index.html'">Liwira</h1>
+                <div id="menuNav" class="menuNav">
+
+                </div>
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__basket">
+                <i class="fa-solid fa-cart-shopping" id="basketicon"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--billede med katagorier sektionen-->
+        <div class="bek__billede">
+            <img class="bek__kurv" src="billeder/bygselv_gavekurve.webp" alt="Kurv">
+        </div>
+        
+        <!--katagori sektionen-->
+        <div class="bek__katagorier__tekst">
+            <p>Vælg nu følgende hvilken kategori der skal være i katagori A</p>
+        </div>
+        <div class="bek__valgmuligheder__side2">
+            <button onclick="document.location='bygenkurv.html'" class="bek__valgmuligheder--knap">Château Fonguillon</button>
+            <button onclick="document.location='bygenkurv.html'" class="bek__valgmuligheder--knap">Baco noir 2022</button>
+            <button onclick="document.location='bygenkurv.html'" class="bek__valgmuligheder--knap">Premium rosé</button>
+            <button onclick="document.location='bygenkurv.html'" class="bek__valgmuligheder--knap">2018 Catena Malbec</button>
+            <button onclick="document.location='bygenkurv.html'" class="bek__valgmuligheder--knap">Catena Chardonnay</button>
+        </div>
+        
+
+        <!--footer sektionen-->
+        <footer>
+            <div class="footer__content">
+                <div class="footer__content__information">
+                    <h3>Liwira kontakt oplysninger:</h3>
+                    <p>Jernbanegade 16,</p>
+                    <p>5550 Langeskov</p>
+                    <p>+45 2426 7971</p>
+                    <p>kontakt@dinpejs.dk</p>
+                    <p>åbningstider:</p>
+                    <p>mandag - fredag 11:00-17:00 </p>
+                    <p>Lørdag 10:00-12:00 - samt efter aftale</p>
+                </div>
+                <div onclick="document.location='produkter.html'" class="footer__content__produkter">
+                    <h3>Produkter:</h3>
+                    <p>Gavekurve</p>
+                    <p>Chokolade</p>
+                    <p>Vin</p>
+                    <p>Te</p>
+                    <p>Delikatesser</p>
+                    <p>Børn</p>
+                    <p>Keramik</p>
+                    <p>interiør</p>
+                    <p>Selvpleje</p>
+                </div>
+                <div class="footer__content__logo">
+                    <p>Liwira</p>
+                </div>
+                <div class="footer__content__socials">
+                    <div class="footer__icons">
+                         <i class="fa-brands fa-facebook"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                         <i class="fa-brands fa-youtube"></i>
+                         <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

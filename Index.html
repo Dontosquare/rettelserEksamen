@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liwira</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script3.js" defer></script>
+    <script src="script2.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="off-screen-menu">
+                <ul id="menu">
+                        
+                </ul>
+            </div>
+                
+
+            <nav>
+                <h1 class="header__logo" onclick="document.location='index.html'">Liwira</h1>
+                <div id="menuNav" class="menuNav">
+
+                </div>
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__basket">
+                <i class="fa-solid fa-cart-shopping" id="basketicon"></i>
+                </div>
+            </nav>
+                
+        </header>
+
+        <!--Forside video sektionen-->
+        <img class="forside__billede"  src="billeder/liwira-udenfor.webp" alt="udenfor">
+
+        <!--se alle produkter sektionen-->
+        <div class="forside__sealleprodukter">
+            <a href="produkter.html"> <h2 class="forside__sealleprodukter__overskrift">Se alle vores produkter</h2></a>
+            <p class="forside__sealleprodukter__text">Opdag vores nøje udvalgte produkter indenfor kunsthåndværk,
+                interiør og delikatesser. Uanset om du leder efter en gave
+                eller noget særligt til hjemmet, har vi noget for enhver smag.
+                Klik videre og find din næste favorit!
+            </p>
+        </div>
+        
+        <!--værdier sektionen-->
+        <div id="brun__boks" class="forside__værdier">
+
+            <div class="forside__kasse__værdier">
+            <img src="billeder/gruppeicon.webp" id="lokalt" class="forside__værdier__icons" alt="lokalt">
+            <h2>LOKALT</h2>
+            <p class="forside__værdier__tekst">Vi støtter lokale producenter og små
+                virksomheder, hvilket styrker både Langeskov og
+                omegn.
+            </p>
+            </div>
+
+            <div class="forside__kasse__værdier">
+            <img src="billeder/kornicon.webp" id="kvalitet" class="forside__værdier__icons" alt="kvalitet">
+            <h2>KVALITET</h2>
+            <p class="forside__værdier__tekst">Vi tilbyder kun produkter af høj kvalitet, med fokus 
+                på dansk design og ansvarlig produktion. Du får det 
+                bedste, både i æstetik og holdbarhed.
+            </p>
+            </div>
+
+            <div class="forside__kasse__værdier">
+            <img src="billeder/hjerteicon.webp" id="hygge" class="forside__værdier__icons" alt="hjerte">
+            <h2>HYGGE</h2>
+            <p class="forside__værdier__tekst">Butikken byder på en hyggelig atmosfære, hvor du kan
+                finde inspiration og få personlig service. Her kan du
+                slappe af og nyde en varm stemning.
+            </p>
+            </div>
+        </div>
+
+        <div class="forside__bestsellers">
+            <h2>BEDST SÆLGENDE</h2>
+
+        <!--bestsellers sektionen phone-->
+            <div class="produkter__varer">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-marmelade1.webp" alt="vin">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Annas Gourmet</p>
+                <p class="produkter__produkt">Appelsin Marmelade</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">29,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-karamel1.webp" alt="Karamel">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Karamelleriet</p>
+                <p class="produkter__produkt">Saltet Karameller</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">39,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="produkter__varer">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-bamse1.webp" alt="bamse">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Maileg</p>
+                <p class="produkter__produkt">Lyserød kanin</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">49,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-vin2.webp" alt="Vin2">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Porcelaine</p>
+                <p class="produkter__produkt">Premium rosé</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">99,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!--bestsellers sektionen desktop-->
+            <div class="produkter__varer__desktop">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-marmelade1.webp" alt="vin">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Annas Gourmet</p>
+                <p class="produkter__produkt">Appelsin Marmelade</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">29,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-karamel1.webp" alt="Karamel">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Karamelleriet</p>
+                <p class="produkter__produkt">Saltet Karameller</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">39,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-bamse1.webp" alt="bamse">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Maileg</p>
+                <p class="produkter__produkt">Lyserød kanin</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">49,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-vin2.webp" alt="Vin2">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Porcelaine</p>
+                <p class="produkter__produkt">Premium rosé</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">99,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--møde lisbeth sektionen-->
+        <div class="forside__mødlisbeth">
+            <h2 class="forside__mødlisbeth__overskrift">Mød Lisbeth</h2>
+            <div class="forside__mødlisbeth__indhold">
+                <img class="forside__mødlisbeth__billede" src="billeder/modlisbeth.webp" alt="modlisbeth">
+                <div class="forside__mødlisbeth__tekstboks">
+                    <p class="forside__mødlisbeth__tekst">Mit navn er Lisbeth Rasmussen, og jeg står bag LIWIRA – en butik med passion for kunsthåndværk, interiør og delikatesser.</p>
+                    <button class="forside__mødlisbeth--knap" onclick="document.location='kontakt.html'">Kontakt</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <!--footer sektionen-->
+        <footer>
+            <div class="footer__content">
+                <div class="footer__content__information">
+                    <h3>Liwira kontakt oplysninger:</h3>
+                    <p>Jernbanegade 16,</p>
+                    <p>5550 Langeskov</p>
+                    <p>+45 2426 7971</p>
+                    <p>kontakt@dinpejs.dk</p>
+                    <p>åbningstider:</p>
+                    <p>mandag - fredag 11:00-17:00 </p>
+                    <p>Lørdag 10:00-12:00 - samt efter aftale</p>
+                </div>
+                <div onclick="document.location='produkter.html'" class="footer__content__produkter">
+                    <h3>Produkter:</h3>
+                    <p>Gavekurve</p>
+                    <p>Chokolade</p>
+                    <p>Vin</p>
+                    <p>Te</p>
+                    <p>Delikatesser</p>
+                    <p>Børn</p>
+                    <p>Keramik</p>
+                    <p>interiør</p>
+                    <p>Selvpleje</p>
+                </div>
+                <div class="footer__content__logo">
+                    <p>Liwira</p>
+                </div>
+                <div class="footer__content__socials">
+                    <div class="footer__icons">
+                         <i class="fa-brands fa-facebook"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                         <i class="fa-brands fa-youtube"></i>
+                         <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main> 
+</body>
+</html>

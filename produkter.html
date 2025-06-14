@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script2.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <main>
+        <!-- burger menu og header sektion-->
+        <header>
+            <div class="off-screen-menu">
+            <ul id="menu">
+                        
+             </ul>
+            </div>
+                
+            <nav>
+                <h1 class="header__logo" onclick="document.location='index.html'">Liwira</h1>
+                <div id="menuNav" class="menuNav">
+
+                </div>
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__basket">
+                <i class="fa-solid fa-cart-shopping" id="basketicon"></i>
+                </div>
+            </nav>
+        </header>
+        <!--billede sektion-->
+            <img id=indenfor class="indenfor__billede"  src="billeder/liwira-indenfor.webp" alt="hylder">
+
+
+        <!--varer sektionen-->
+        <!-- Kaffe og te-->
+            <p class="sektioner__overskrift">Kaffe og te</p>
+            <div class="produkter__varer">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-kaffe1.webp" alt="Kaffe1">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">KoffiRoast</p>
+                <p class="produkter__produkt">Langeskov Kaffen</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">49,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <!-- produkt 2-->
+             <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-te1.webp" alt="te1">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Carstensens tehandel</p>
+                <p class="produkter__produkt">Hole in one</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">179,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- kaffe og te desktop-->
+             <div class="produkter__varer__desktop">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-kaffe1.webp" alt="vin">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">KoffiRoast</p>
+                <p class="produkter__produkt">Langeskov Kaffen</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">49,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-kaffe1.webp" alt="Karamel">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">KoffiRoast</p>
+                <p class="produkter__produkt">Langeskov Kaffen</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">49,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-kaffe1.webp" alt="bamse">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">KoffiRoast</p>
+                <p class="produkter__produkt">Langeskov Kaffen</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">49,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-kaffe1.webp" alt="Vin2">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">KoffiRoast</p>
+                <p class="produkter__produkt">Langeskov Kaffen</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">49,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- vin sektion -->
+        <p class="sektioner__overskrift">Vin</p>
+            <div class="produkter__varer">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <a href="omproduktet.html"><img src="billeder/produkt-vin1.webp" alt="Vin"></a>
+                </div>
+            <div class="produkt__tekst">
+                <a href="omproduktet.html"><p id="Rodvin__tekst" class="produkter__producent">Montagne Saint-Emilion</p></a>
+                <a href="omproduktet.html"><p class="produkter__produkt">Château Fonguillon</p></a>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">149,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <!-- produkt 2-->
+             <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-vin3.webp" alt="Vin3">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Henry of Pelham</p>
+                <p class="produkter__produkt">Baco noir 2022</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">219,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--vin desktop-->
+        <div class="produkter__varer__desktop">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <a href="omproduktet.html"><img src="billeder/produkt-vin1.webp" alt="Vin"></a>
+                </div>
+            <div class="produkt__tekst">
+                <a href="omproduktet.html"><p class="produkter__producent">Montagne Saint-Emilion</p></a>
+                <a href="omproduktet.html"><p class="produkter__produkt">Château Fonguillon</p></a>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">149,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-vin2.webp" alt="Karamel">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Porcelaine</p>
+                <p class="produkter__produkt">Premium rosé</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">99,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-vin4.webp" alt="bamse">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Monólogo</p>
+                <p class="produkter__produkt">Chardonnay P706</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">99,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-vin3.webp" alt="Vin2">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Henry of Pelham</p>
+                <p class="produkter__produkt">Baco noir 2022</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">219,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Delikatesse sektion-->
+        <p class="sektioner__overskrift">Delikatesse</p>
+            <div class="produkter__varer">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-valdnod1.webp" alt="valnod">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Nybro Frugtplantage</p>
+                <p class="produkter__produkt">Valnødder i sirup</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">59,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <!-- produkt 2-->
+             <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-vingummi1.webp" alt="Vingummi1">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Wally & Whiz</p>
+                <p class="produkter__produkt">Hindbær vingummi</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">89,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--delikatesse sektion-->
+        <div class="produkter__varer__desktop">
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-marmelade1.webp" alt="vin">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Annas Gourmet</p>
+                <p class="produkter__produkt">Appelsin Marmelade</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">29,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-marmelade1.webp" alt="vin">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Annas Gourmet</p>
+                <p class="produkter__produkt">Appelsin Marmelade</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">29,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-marmelade1.webp" alt="vin">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Annas Gourmet</p>
+                <p class="produkter__produkt">Appelsin Marmelade</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">29,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produkt__wrapper">
+                <div class="produkt__billede">
+                    <img src="billeder/produkt-marmelade1.webp" alt="vin">
+                </div>
+            <div class="produkt__tekst">
+                <p class="produkter__producent">Annas Gourmet</p>
+                <p class="produkter__produkt">Appelsin Marmelade</p>
+                    <div class="pris__TTK">
+                        <p class="produkt__pris">29,00 Kr</p>
+                        <button class="produkt__knap">Tilføj til kurv</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--footer sektionen-->
+        <footer>
+            <div class="footer__content">
+                <div class="footer__content__information">
+                    <h3>Liwira kontakt oplysninger:</h3>
+                    <p>Jernbanegade 16,</p>
+                    <p>5550 Langeskov</p>
+                    <p>+45 2426 7971</p>
+                    <p>kontakt@dinpejs.dk</p>
+                    <p>åbningstider:</p>
+                    <p>mandag - fredag 11:00-17:00 </p>
+                    <p>Lørdag 10:00-12:00 - samt efter aftale</p>
+                </div>
+                <div onclick="document.location='produkter.html'" class="footer__content__produkter">
+                    <h3>Produkter:</h3>
+                    <p>Gavekurve</p>
+                    <p>Chokolade</p>
+                    <p>Vin</p>
+                    <p>Te</p>
+                    <p>Delikatesser</p>
+                    <p>Børn</p>
+                    <p>Keramik</p>
+                    <p>interiør</p>
+                    <p>Selvpleje</p>
+                </div>
+                <div class="footer__content__logo">
+                    <p>Liwira</p>
+                </div>
+                <div class="footer__content__socials">
+                    <div class="footer__icons">
+                         <i class="fa-brands fa-facebook"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                         <i class="fa-brands fa-youtube"></i>
+                         <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
